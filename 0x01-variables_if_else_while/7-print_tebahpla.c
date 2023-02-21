@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
- * main - entry point for program
+ * main - entry point of program
  * Return: 0 success
  */
 int main(void)
 {
-	int a;
+	char c;
 
-	for (a = '0'; a <= '9'; a++)
-		putchar(a);
+	for (c = 'z' ; c >= 'a'; c--)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
+
