@@ -6,4 +6,9 @@
  *Return: returns result of addition
  */
 int add(int a, int b)
-	return (a + b);
+{
+	int sum;
+
+	sum = a + b;
+	return (sum);
+}
